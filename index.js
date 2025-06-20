@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94718913389']
+const ownerNumber = ['94786425433']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -59,7 +59,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('😼 Installing... ')
+console.log('🔄 Installing... ')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -148,9 +148,9 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             
 //========OwnerReact========            
          
-if(senderNumber.includes("947189133889")){
+if(senderNumber.includes("94786425433")){
 if(isReact) return
-m.react("💗")
+m.react("🧑‍💻")
 }       
 
                
