@@ -11,7 +11,7 @@ let baseUrl;
 })();
 
 
-const yourName = "> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*";
+const yourName = "> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ishan-x md*";
 
 //twitter dl (x)
 cmd({
