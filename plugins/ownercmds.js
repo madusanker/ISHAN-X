@@ -139,7 +139,7 @@ cmd({
     pattern: "gjid",
     desc: "Get the list of JIDs for all groups the bot is part of.",
     category: "owner",
-    react: "📝",
+    react: "📑",
     filename: __filename
 },
 async (conn, mek, m, { from, isOwner, reply }) => {
@@ -147,5 +147,5 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 
     const groups = await conn.groupFetchAllParticipating();
     const groupJids = Object.keys(groups).join('\n');
-    reply(`📝 *Group JIDs:*\n\n${groupJids}`);
+    reply(`📑 *Group JIDs:*\n\n${groupJids}`);
 });
