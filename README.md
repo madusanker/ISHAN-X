@@ -1,2 +1,2 @@
-# ISHAN-X
+# ISHAN-X MD
 My whatsapp bot
