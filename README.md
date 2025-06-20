@@ -1,2 +1,2 @@
 # ISHAN-X MD
-My whatsapp bot
+MR Ishan whatsapp bot by ISHAN-x MD
